@@ -10,7 +10,7 @@
 
 
     <groupId>com.hiralpatel.lib</groupId>
-    <artifactId>kafkajar10</artifactId>
+    <artifactId>kafkajar10_2.11</artifactId>
     <packaging>jar</packaging>
     <name>kafkajar10</name>
 
