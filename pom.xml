@@ -4,7 +4,7 @@
     <groupId>com.hiralpatel.lib</groupId>
     <artifactId>kafkajar_parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.5</version>
+    <version>0.6-SNAPSHOT</version>
     <name>kafkajar_parent</name>
     <description>Kafka uber jars parent</description>
     <url>https://github.com/patelh/kafkajar</url>
@@ -40,7 +40,7 @@
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/patelh/kafkajar.git</developerConnection>
         <url>https://github.com/patelh/kafkajar.git</url>
-        <tag>kafkajar_parent-0.5</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
