@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hiralpatel.lib</groupId>
+    <artifactId>kafkajar_parent</artifactId>
+    <packaging>pom</packaging>
+    <version>0.1</version>
+    <name>kafkajar_parent</name>
+    <description>Kafka uber jars parent</description>
+    <url>https://github.com/patelh/kafkajar</url>
+
+    <properties>
+        <kafka.eight.version>0.8.2.2</kafka.eight.version>
+        <kafka.nine.version>0.9.0.1</kafka.nine.version>
+        <kafka.ten.version>0.10.2.1</kafka.ten.version>
+    </properties>
+
+    <modules>
+        <module>kafkajar8</module>
+        <module>kafkajar9</module>
+        <module>kafkajar10</module>
+    </modules>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <distributionManagement>
+        <site>
+            <id>git</id>
+            <url>scm:git:git@github.com:patelh/kafkajar.git</url>
+        </site>
+        <repository>
+            <id>bintray-patelh-maven</id>
+            <name>patelh-maven</name>
+            <url>https://api.bintray.com/maven/patelh/maven/kafkajar/;publish=1</url>
+        </repository>
+    </distributionManagement>
+
+    <scm>
+        <developerConnection>scm:git:ssh://git@github.com/patelh/kafkajar.git</developerConnection>
+        <url>https://github.com/patelh/kafkajar.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+</project>
