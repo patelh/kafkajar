@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hiralpatel.lib</groupId>
     <artifactId>kafkajar_parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.3</version>
     <name>kafkajar_parent</name>
     <description>Kafka uber jars parent</description>
     <url>https://github.com/patelh/kafkajar</url>
@@ -45,7 +44,7 @@
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/patelh/kafkajar.git</developerConnection>
         <url>https://github.com/patelh/kafkajar.git</url>
-        <tag>HEAD</tag>
+        <tag>kafkajar_parent-0.3</tag>
     </scm>
 
     <build>
