@@ -32,7 +32,7 @@
     <distributionManagement>
         <site>
             <id>git</id>
-            <url>scm:git:git@github.com:patelh/kafkajar.git</url>
+            <url>git:git@github.com:patelh/kafkajar.git</url>
         </site>
         <repository>
             <id>bintray-patelh-maven</id>
