@@ -30,10 +30,6 @@
     </licenses>
 
     <distributionManagement>
-        <site>
-            <id>git</id>
-            <url>git:git@github.com:patelh/kafkajar.git</url>
-        </site>
         <repository>
             <id>bintray-patelh-maven</id>
             <name>patelh-maven</name>
