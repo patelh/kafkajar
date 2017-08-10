@@ -5,7 +5,7 @@
     <groupId>com.hiralpatel.lib</groupId>
     <artifactId>kafkajar_parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.1</version>
+    <version>0.2</version>
     <name>kafkajar_parent</name>
     <description>Kafka uber jars parent</description>
     <url>https://github.com/patelh/kafkajar</url>
